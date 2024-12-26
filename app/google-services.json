@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "65554396914",
+    "project_id": "arielsshiftmanagement",
+    "storage_bucket": "arielsshiftmanagement.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:65554396914:android:230a7ffbf57af7214e826b",
+        "android_client_info": {
+          "package_name": "com.ariel.arielsshiftmanagement"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDSJ3Uz-J3tzyfGcypeutmGbpsbD3QVvhk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
