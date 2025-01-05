@@ -13,7 +13,7 @@ import androidx.core.view.WindowInsetsCompat;
 
 public class MainActivity extends AppCompatActivity {
 
-    private Button btnRegisterMenu, btnLoginMenu;
+    private Button btnRegisterMenu, btnLoginMenu, btnAboutMenu;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -33,6 +33,7 @@ public class MainActivity extends AppCompatActivity {
     private void initViews() {
         btnRegisterMenu = findViewById(R.id.btnRegisterMenu);
         btnLoginMenu = findViewById(R.id.btnLoginMenu);
+        btnAboutMenu = findViewById(R.id.btnAboutMenu); // Initialize About Button
 
         btnRegisterMenu.setOnClickListener(v -> {
             Intent intent = new Intent(MainActivity.this, Register.class);
@@ -41,6 +42,11 @@ public class MainActivity extends AppCompatActivity {
 
         btnLoginMenu.setOnClickListener(v -> {
             Intent intent = new Intent(MainActivity.this, Login.class);
+            startActivity(intent);
+        });
+
+        btnAboutMenu.setOnClickListener(v -> {
+            Intent intent = new Intent(MainActivity.this, About.class);
             startActivity(intent);
         });
     }
