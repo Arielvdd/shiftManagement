@@ -50,7 +50,6 @@
         app:layout_constraintHorizontal_bias="0.5"
         android:layout_marginHorizontal="32dp"/>
 
-    <!-- New Button to Navigate to About Page -->
     <Button
         android:id="@+id/btnAboutMenu"
         android:layout_width="0dp"
